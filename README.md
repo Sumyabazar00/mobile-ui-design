@@ -5,7 +5,7 @@ A personal, portable Claude Code **Agent Skill** encoding my native-mobile (Andr
 ## Install (each machine)
 Clone into the user-level skills dir so it loads in all projects:
 ```
-git clone <remote> ~/.claude/skills/mobile-ui-design
+git clone https://github.com/Sumyabazar00/mobile-ui-design.git ~/.claude/skills/mobile-ui-design
 ```
 Claude Code auto-discovers it via `SKILL.md`. No per-project setup.
 
