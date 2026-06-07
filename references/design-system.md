@@ -34,6 +34,8 @@ Display `displayLarge` 32/700 · H1 `headlineLarge` 24/700 · H2 `headlineMedium
 - **Bottom-sheet picker** (`ModalBottomSheet`, `containerColor = sheetBg`) — title + list rows (icon chip + primary/secondary text + trailing action like delete). Doubles as lightweight management UI.
 - **Branded numeric keypad** — for PIN/secure entry; circular soft-shadow keys, accent-fill dots, shake-on-error. Never the OS keyboard for these.
 - **softShadow** — `Modifier.softShadow(color, blur, cornerRadius, offsetX, offsetY, spread)` drawing a blurred round-rect behind; the colored-glow substitute (Compose elevation can't).
+- **Profile header** — centered: avatar (~88dp circle + hairline border) → name (bold) → muted meta line (e.g. masked id) → verified pill. The anchor for a profile/account screen (beats a left-aligned avatar+name row). Add an avatar edit-pencil ONLY if avatar-change is wired.
+- **Recessed contact row** — icon chip + `Column(small muted label ABOVE the value)`; left-aligned, no right-aligned value. Add a trailing chevron ONLY if the row is actually navigable (else it's a false affordance).
 
 ## Verify
 Light + dark every change. On Android, screenshot via `adb shell screencap -p /sdcard/s.png` + `adb pull` (not `exec-out > file` — PowerShell corrupts the binary).

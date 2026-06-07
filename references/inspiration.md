@@ -21,3 +21,5 @@ A before/after profile screen. "Before" = one long flat list of label/value rows
 - Our profile already has the grouped contact card + icon rows; the upgrades to steal are the **centered avatar header** and the **document/vehicle tiles** pattern.
 
 **Applies to:** our Профайл/Миний tab; the tile pattern also fits any "set of small items" (saved vehicles, documents, policies summary).
+
+**Applied 2026-06-07** — insure Миній tab redesigned with the centered avatar header + recessed contact rows (graduated into the component catalog: "Profile header", "Recessed contact row"). The document-tile pattern is still on the shelf for when we have a set of small items to show.
