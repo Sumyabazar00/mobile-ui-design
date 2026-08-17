@@ -1,3 +1,5 @@
+> **Moved.** This skill now lives in [Sumyabazar00/claude-code-skills](https://github.com/Sumyabazar00/claude-code-skills) under `skills/mobile-ui-design`, alongside my other Claude Code skills. This repo is archived and no longer updated.
+
 # mobile-ui-design — Sumiya's native mobile design skill
 
 A personal, portable Claude Code **Agent Skill** encoding my native-mobile (Android Jetpack Compose now, SwiftUI later) design system + taste. Reusable across **every** mobile app I build. Fills the gap left by Anthropic's official `frontend-design` skill, which is web-only.
